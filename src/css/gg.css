@@ -1,0 +1,366 @@
+body{
+    min-width: 1226px;
+    background: #f5f5f5;
+}
+header{
+    background-color: #333333;
+    height: 40px;
+    color: #B0B0B0;
+}
+header ul{
+    width: auto;
+    float: left;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    position: relative;
+}
+header ul a{
+    display: inline-block;
+}
+header ul span{
+    font-size: 10px;
+   margin: 0 5px;
+    color: #B0B0B0;
+}
+.active:hover .appxz{
+    height: 148px;
+}
+.appxz{
+    position: absolute;
+    top:40px;
+    left: 73%;
+    width: 124px;
+     height: 0;
+    transition:0.3s;
+    z-index: 2;
+    overflow:hidden;
+     background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.appxz img{
+    width: 90px;
+    margin: 18px 17px 10px 17px;
+}
+.appxzP{
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    font-size: 14px;
+}
+.gw{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+   text-align: center;
+    width: 120px;
+    background: #424242;
+}
+.icon-gouwuchekong{
+   font-size:20px ;
+   margin-right: 5px;
+}
+.tz{
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+header  span{
+    margin: 0 3px;
+    font-size: 12px;
+}
+nav{
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    background-color: #FF6700;
+    
+    margin-top: 22px;
+    float: left;
+}
+.logo:before{
+    content:'';
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(//s02.mifile.cn/assets/static/image/mi-logo.png);
+}
+.navm{
+    float: left;
+    width: 850px;
+    height: 100px;
+    position: relative;
+}
+.liactive{
+    float: left;
+}
+.navu{
+    margin-left: 30px;
+    float: left;
+    margin-top: 12px;
+}
+.navxl{
+    position: absolute;
+    top:100px;
+    left: -55px;
+    width: 234px;
+    height: 420px;
+    color: #fff;
+    background: rgba(105,101,101,.6);;
+    padding: 20px 0;
+    z-index: 5;
+}
+.navxl li{
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+  
+}
+.navxl  li a{
+    padding-left: 30px;
+}
+.navxl li:hover{
+    color: #fff;
+    background-color: #ff6700;
+}
+.navxlChildren{
+    width: 992px;
+    height: 458px;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    border: 1px solid #e0e0e0;
+    z-index: 3;
+    background-color: #fff;
+    display: none;
+}
+.navxlChildren a{
+    color: #333333;
+}
+.navxlChildren li{
+    width: 265px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+}
+.navXlist{
+    width: 100%;
+    height:229px;
+    display: none;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 3px 4px rgba(0,0,0,.18);
+    text-align: center;
+    position:  absolute;
+    top: 100px;
+    overflow: hidden;
+    transition: height .5s linear;
+    z-index: 11;
+}
+.navXlist li{
+    float: left;
+    width: 180px;
+    padding:35px 12px 0 12px;
+    position: relative;
+}
+.navXlist li::before{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 1;
+    width: 1px;
+    height: 100px;
+    content: "";
+    background-color: #e0e0e0;
+}
+.navXlist .navfirst::before{
+    width: 0;
+}
+.navXlist a{
+    display: inline-block;
+    width: 160px;
+    height: 110px;
+}
+.navprice{
+    line-height: 20px;
+    color: #ff6700;
+}
+.ggdy{
+float: right;
+line-height: 42px;
+margin-right: 20px;
+}
+.navselect{
+    width: 234px;
+    position: absolute;
+}
+.navone{
+      padding-right: 15px;
+}
+
+.navu li{
+    height: 88px;
+    line-height: 76px;
+    float: left;
+    font-size: 16px;
+}
+.navu li a{
+    display: block;
+    padding:0 10px;
+}
+.navu li:first-child{
+    padding: 0;
+}
+.navu li a:hover{
+    color: #ff6700;
+}
+.navselect{
+    float: right;
+    margin-top: 25px;
+    border: 1px solid #e0e0e0;
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+.navselect input{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+.navselect button{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+.navselect button:hover{
+    background-color: #ff6700;
+    color: #fff;
+    border: 1px solid #e0e0e0;
+}
+footer{
+    background-color: #fff;
+}
+.hf{    
+    padding-top: 27px;
+    padding-bottom: 54px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.hf li{
+    width: 19%;
+    float: left;
+    height: 25px;
+    line-height:25px;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #e0e0e0;
+}
+.hf li:nth-child(1){
+    border-left:0px solid;
+}
+.hf a i{
+    font-size: 23px;
+   vertical-align: middle;
+}
+footer li a:hover{
+    color: #FF6700;
+}
+.bz {
+    height: 192px;
+    padding: 40px 0;
+    height: 112px;
+   
+}
+.bz li{
+    width: 156px;
+    float: left;
+}
+.bz h4{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.bz p{
+    margin-top: 10px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+.bz p a{
+    color: #757575;
+}
+.kef{
+    width: 256px;
+    border-left: 1px solid #e0e0e0;
+    float: right;
+    text-align: center;
+}
+.kef p{
+    margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.kef h4{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #616161;
+}
+.kef a{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border:1px solid #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+.footerB{
+    padding: 30px 0;
+}
+.tlog{
+    float: left;
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    background: url(//s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+}
+.footerBR{
+    float: left;
+}
+.footerBR p{
+line-height: 18px;
+}
+.footerBR span{
+    font-size: 10px;
+    vertical-align: top;
+}
+.footerBR a:hover{
+    color: #FF6700;
+}
+.bqP{
+    color: #b0b0b0;
+}
+.irimg{
+    clear: both;
+    margin: 30px auto 0;
+    width: 100%;
+    height: 19px;
+    background: url(//cnbj1.fds.api.xiaomi.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}

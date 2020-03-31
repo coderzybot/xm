@@ -1,0 +1,81 @@
+body{
+    background: #f5f5f5;
+}
+.navxl{
+    display: none;
+}
+.fl{
+    background-color: #fff;
+}
+.fl h4{
+    height: 84px;
+    line-height: 84px;
+    margin-top: 40px;
+    font-weight: normal;
+}
+.xqcen{
+    margin-bottom: 100px;
+}
+.xqcen::before{
+    content: "";
+    clear: both;
+}
+.xqcen::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.xqt{
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.xqt li{
+    float: left;
+    padding: 0 30px;
+}
+.xqt li a:hover{
+    color: #ff6700;
+}
+.xqm{
+   text-align: center;
+}
+.xqm::before{
+    content: "";
+    clear: both;
+}
+.xqm::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.xqm li{
+    float: left;
+    width: 24%;
+    background-color: #fff;
+    padding-top: 47px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.xqm li:nth-child(4n){
+    margin-right: 0;
+}
+.xqm li:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.xqm a{
+    width: 296px;
+    height: 353px;
+    display: inline-block;
+}
+.xqm a:hover{
+    color: black;
+}
+.xqm img{
+    width: 200px;
+    height: 200px;
+}
+.xqm span{
+    color: #ff6700;
+}
